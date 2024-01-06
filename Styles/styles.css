@@ -1,0 +1,262 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav section styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+
+.orange {
+    color: #FD6E0A;
+    /* font-size: 45px;
+font-weight: 800; */
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.orange-button {
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    margin: 0;
+}
+
+header {
+    background: #FFF8F3;
+    background-image: url('../Images/header_bg.png'), url('../Images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    /* background-size: 50%; */
+}
+
+.banner {
+    padding: 30px 30px 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner img {
+    width: 500px;
+}
+
+.banner-greeding {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about {
+    padding: 130px;
+    margin: 130px 0;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+.about-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-discription {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 827px;
+    /* padding: auto; */
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    margin: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    color: #181818;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+.resume-colum-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.resume-colum-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.item-sub-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 0;
+}
+
+.resume-item {
+    width: 600px;
+    height: 150px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    gap: 100px;
+    /* justify-content: space-between; */
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+
+.section-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 500px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"],textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 15px 30px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    background: white;
+}
