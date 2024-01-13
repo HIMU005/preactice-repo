@@ -260,3 +260,67 @@ footer {
     border-radius: 5px;
     background: white;
 }
+.hide{
+    display: none;
+}
+/* responsive styles */
+
+/* mobile device */
+
+@media screen and (max-width: 576px) {
+    header{
+        background-image: none;
+    }
+    nav, .skill-container,.banner,  footer,.about-title, .resume-container {
+        flex-direction: column;
+    }
+    .about-discription{
+        padding: 10px;
+        text-align: justify;
+    }
+    .about{
+        padding: 15px;
+        margin: 20px;
+    }
+    /* #what-i-do-description{
+        padding: 10px;
+    } */
+    .resume-container {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    footer, .about, .banner {
+        padding: 10px;
+    }
+    .about-info-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about-discription{
+        width: 95%;
+        text-align: justify;
+    }
+    .info-description{
+        text-align: center;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .resume-item{
+        width: 90%;
+    }
+}
+@media screen and (min-width:576px) and (max-width: 960px) {
+    footer {
+        display: flex;
+        gap: 100px;
+        /* justify-content: space-between; */
+        background: #FFF8F3;
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+   
+}
